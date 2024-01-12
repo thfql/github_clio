@@ -1,0 +1,183 @@
+a{
+    color: #333;
+    cursor: pointer;
+}
+
+.title_wrap_1{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.title_wrap_1 .title_1_kill, .title_1_new, .title_1_cushion, .title_wrap_1 p{
+    font-family: 'Playfair Display', serif;
+
+}
+
+ul,li{
+    color: #333;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section_2{
+    padding: 200px 14%;
+}
+
+.title_wrap h2{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 70px;
+    letter-spacing: -2px;
+}
+
+.more_btn, .more_btn_mo{
+    background-color: #1d1d1d;
+    color: #fff;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;   
+}
+
+.more_btn a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.more_btn_mo a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    margin-right: 5px;
+}
+
+.plus{
+    font-size: 30px;
+    line-height: 58px;
+}
+
+.more_btn a:hover{
+    background-color: #F58220;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.more_btn_mo a:hover{
+    background-color: #F58220;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+
+.mo_br,.mobile_padding, .more_btn_mo, .mobile_member, .mobile_product_wrap{
+    display: none;
+}
+
+@media screen and (max-width: 450px){
+
+    .section_2{
+        padding: 99px 10%;
+    }
+
+    .title_wrap h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .more_btn, .more_btn_mo{
+        border-radius: 7px;
+    }
+    
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled{
+    opacity: 0;
+}
+.swiper-button-next, .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(240, 240, 240, 0.2);
+    backdrop-filter: blur(3px);
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+
+}
+
+:root {
+    --swiper-navigation-size: 20px!important;
+    --swiper-theme-color:#F58220!important;
+}
+
+.swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+    border-radius: 0;
+    background-color: #eee;
+}
+/* 
+11.3 피드백 수정사항
+메인 이미지 백그라운드 이미지로 변경 0
+행간 조절 0
+메뉴 18px 0
+제품 설명 글자 키우기 0
+*/
+
+/* 
+11.7 피드백 수정사항
+섹션 1 글자 자간 줄이기 0
+돋보기랑 햄버거 로고 밑으로 0
+자세히보기 버튼 수정ㅇ 0
+해시태그 투명도 조절 0
+가입하기 말고 자세히 보기로 0
+이미지 규격 맞추기 0
+메이크업 룩 타이틀 간격 맞추기
+로고 수정0 */
+
+/* 
+11.8
+* reset.css 전체선택자에 
+letter-spacing: -1px;
+word-break: break-all;
+넣어놓고 작업하기 */
+
+
+
+/* 11.9
+섹션 1번 타이틀 new에 마진 빼기 0
+높이 80vh 0
+백그라운드 포지션으로 이미지 위치 수정 0
+
+섹션 2번 라인하이트 폰트보다 10크게 0
+포지션 빼고 자세히보기 버튼 모바일전용 따로 만들기 0
+
+브랜드 섹션 애니메이션으로 모바일 pc 모두 애니메이션으로 지나가게 0
+
+포지션 빼기0
+
+애니메이션 넣을때 로고들이 끊기지 않고 계속 지나가게 하려면 어떻게 해야 하나요
+제이쿼리 스크롤 내리면 헤더 고정 0
+섹션 2번 글자마다 aos0
+상품 신상품과 베스트 제품 밑에 밑줄 0 ?
+---> 제이쿼리로 했는데 어디가 잘못된건지 잘 모르겟음
+
+
+
+감이 안잡히는 부분
+-pc 버전에서는 슬라이드 없음
+-반응형에서 슬라이드가 들어가야 하는데 어떻게 넣어야 하는지 잘 모르겠음
+*/
